@@ -88,7 +88,7 @@ reset=`tput sgr0`
 	echo "---------------------------------------"
 	echo "| Clearing Swap                       |"
 	echo "---------------------------------------"
-echo -n " - ${green}Clearing swap..."
-sudo swapoff -a; sudo swapon -a;
-echo "               ${red}Done!${reset}"
-echo ""
+	echo -n " - ${green}Clearing swap..."
+	sudo swapoff -a; sudo swapon -a;
+	echo "               ${red}Done!${reset}"
+	echo ""
